@@ -3,6 +3,17 @@ package main.kotlin
 import kotlin.math.absoluteValue
 import kotlin.math.roundToInt
 
+/*  Programa para evaluar el nivel de ingles
+    1. El usuario digite su nombre
+    2. El sistema generar una pregunta y mostrar al usuario
+    3. Usuario responde la pregunta
+    4. El sistema guarda la respuesta del usuario
+    5. Se repite el paso 2 al paso 4 por 3 veces.
+    6. Sistema imprime el número de respuestas correctas e incorrectas y el rendimiento
+        el cual se calcula Número de respuestas correctas / el total de preguntas
+*/
+
+
 val questions = Array(3) { "" }
 val answers = Array(3) { "" }
 val correctAnswers = Array(3) { 0 }
